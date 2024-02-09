@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Venta de Productos</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
@@ -11,27 +12,27 @@
     </header>
     <form action="./bienvenido.html">
       <div>
-        <label for="inputNombre">Nombre: </label>
-        <input required id="inputNombre" type="text" />
+        <label for="inputNombre" class="labelClass">Nombre: </label>
+        <input required id="inputNombre" type="text" class="classInput" />
       </div>
       <br />
       <div>
-        <label for="inputApellido">Apellido: </label>
+        <label for="inputApellido" class="labelClass">Apellido: </label>
         <input required id="inputApellido" type="text" />
       </div>
       <br />
       <div>
-        <label for="inputEmail">Email:</label>
+        <label for="inputEmail" class="labelClass">Email:</label>
         <input id="inputEmail" required type="email" />
       </div>
       <br />
       <div>
-        <label for="inputPassword">Password:</label>
+        <label for="inputPassword" class="labelClass">Password:</label>
         <input id="inputPassword" required type="password" />
       </div>
       <br />
       <div>
-        <label for="inputTelefono">Telefono:</label>
+        <label for="inputTelefono" class="labelClass">Telefono:</label>
         <input
           id="inputTelefono"
           required
@@ -43,7 +44,8 @@
       <br />
       <div>
         <!--buton-->
-        <button type="submit">Enviar</button>
+        <!-- especificidad por Inline -->
+        <button type="submit" style="background-color: pink">Enviar</button>
         <!--input-->
       </div>
     </form>

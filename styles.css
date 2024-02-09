@@ -1,0 +1,20 @@
+ /* Por etiqueta */
+ h1 {
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+ /* Por clase */
+
+ .labelClass {
+     color: blue;
+ }
+
+ /* Por ID */
+ #inputNombre {
+     font-size: 30px;
+ }
+
+ /* Por Important */
+ .classInput {
+     font-size: 50px !important;
+ }
